@@ -1,0 +1,123 @@
+﻿<html>
+<head>
+    <meta charset="UTF-8">
+    <title>NarutoSasuke no fansub -NSnf-</title>
+    <link href="~/Content/header/estiloheader.css" rel="stylesheet" /> <!-- Header -->
+    <script src="~/Scripts/background/modernizr.min.js"></script> <!-- background js -->
+    <script src="~/Scripts/background/jquery.min.js"></script><!-- background js -->
+    <script src="~/Scripts/background/bootstrap.min.js"></script> <!-- background js -->
+    <script src="~/Scripts/background/index.js"></script>
+    <link href="~/Content/background/bootstrap.min.css" rel="stylesheet" /> <!-- background css -->
+    <link href="~/Content/background/style.css" rel="stylesheet" /> <!-- background css -->
+    <script src="~/Scripts/header/jquery.min.js"></script> <!-- Header -->
+    <script src="~/Scripts/header/skrollr.min.js"></script> <!-- Header -->
+    <script src="~/Scripts/header/scrollcall.js"></script> <!-- Header -->
+    <link href="~/Content/click/estiloClickEffect.css" rel="stylesheet" />
+    <script src="~/Scripts/click/clickEffectjquery.min.js"></script> <!-- script Click Effect -->
+    <link href="~/Content/respmenu/respmenuforo.css" rel="stylesheet" /> <!-- Menú resp -->
+    <script src='js/respmenu/respmenuforo.js'></script> <!-- Menú resp -->
+    <link href="~/Content/body/estilosBody.css" rel="stylesheet" />
+    <link href="~/Content/footer/footerestilo.css" rel="stylesheet" /><!-- footer css -->
+
+</head>
+<body>
+    <div id="cuerpo">
+        <!-- background body -->
+        <div class="carousel slide carousel-fade" data-ride="carousel">
+            <!-- background body -->
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <!-- background 1 -->
+                </div>
+                <div class="item">
+                    <!-- background 1 -->
+                </div>
+                <div class="item">
+                    <!-- background 1 -->
+                </div>
+                <div class="item">
+                    <!-- background 1 -->
+                </div>
+            </div>
+        </div>
+        <!-- Remeber to put all the content you want on top of the slider below the slider code /
+        Recuerde poner todo el contenido que desee en la parte superior del control deslizante
+        debajo del código del control deslizante -->
+        <div id="page">
+            <div id="toolbar" data-0="height:192px" data-128="height: 70px">
+                <!-- Header de la página -->
+                <div id="actions">
+                    <div class="logo">
+                        <a href="Index.html"><img data-0="height:187px" data-128="height: 64px" src="~/Img/Logo/Gendai Logo.svg"></a>
+
+                    </div>
+                    <div class="spacer"></div>
+                </div>
+                <nav class="menu">
+                    <ul class="material-ripple">
+                        <li>
+                            <a href="#">Empresa</a>
+                        </li>
+                        <li>
+                            <a href="#">Proyectos</a>
+                        </li>
+                        <li>
+                            <a href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
+       
+                <!-- Menú responsivo -->
+                <div id="respmenuforo">
+                    <div class="menu-section">
+                        <div class="menu-toggle" data-0="top: 140px;" data-128="top: 20px;">
+                            <div class="one"></div>
+                            <div class="two"></div>
+                            <div class="three"></div>
+                        </div>
+                        <nav>
+                            <ul role="navigation" class="hidden">
+                                <div class="marcomenuresp" data-0="top: 192px;" data-128="top: 70px;">
+                                    <div class="material-ripple">
+                                        <li class="">
+                                            <a href="#">Empresa</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Proyectos</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Contacto</a>
+                                        </li>
+                                    </div>
+                                </div>
+                            </ul>
+                        </nav>
+                    </div>
+                    <script src="~/Scripts/respmenu/respmenuforoindex.js"></script>  <!-- Va debajo de el menú -->
+                </div>
+                <!-- End Menú responsivo -->
+                <div id="title" data-0="font-size: 48px; padding: 0 0 2px 200px;" data-128="font-size: 18px; padding: 0 0 11px 65px;">
+                    <span class="tilutoprinc">Gendai Soft</span>
+                    <span class="tilutoresp">GS</span>
+                </div>
+            </div>
+            <div id="content" data-0="padding-top: 193px;" data-192="padding-top: 190px;">
+                <!-- Body -->
+                @RenderBody()
+            </div>
+            <!-- <div class="arrow animated bounce"></div> --> <!-- Botoncito culiolo -->
+            </section>
+        </div>
+    </div>
+    <script src="~/Scripts/click/clickEffect.js"></script>  <!-- script Click Effect -->
+</body>
+<br />
+<br />
+<footer>
+    <center>
+        <span class="tilutoprinc">Gendai Soft</span>
+        <span class="tilutoresp">GS</span>
+    </center>
+</footer>
+</html>

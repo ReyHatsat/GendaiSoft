@@ -1,0 +1,24 @@
+.material-ripple {
+  overflow: visible;
+}
+
+.material-ink {
+  display: block;
+  position: relative;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 100%;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+.material-ink-animate {
+  -webkit-animation: ripple 0.5s linear;
+          animation: ripple 0.5s linear;
+}
+@keyframes ripple { /*lee el mouse*/
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+}

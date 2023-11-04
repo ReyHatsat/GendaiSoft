@@ -1,0 +1,99 @@
+#toolbar {
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background-color: rgba(189, 189, 189, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -webkitt-linear-backdrop-filter: blur(10px);
+    -moz-backdrop-filter: blur(10px);
+    -o-backdrop-filter: blur(10px);
+}
+
+#actions {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 64px;
+  top: 0;
+  left: 0;
+  right 0;
+}
+
+
+
+
+#title {
+  padding: 21px;
+  position: absolute;
+  bottom: 0;
+  color: #FFF;
+}
+
+.logo {
+  height: 60px;
+}
+
+nav.menu ul {
+  padding: 0px;
+  position: absolute;
+  right: 0%;
+  bottom: 0;
+  float:left;
+  list-style: none;
+  font-size:20px;
+  color:#fff;
+}
+
+nav.menu ul li {
+  float:left;
+}
+
+nav.menu ul a {
+  display:block;
+  padding:5px;
+  color:#fff;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+nav.menu ul a:hover {
+  background: #909090;
+}
+/* Título */
+.tilutoresp {
+  display: none;
+}
+@media screen and (max-width: 1000px) {
+  .tilutoprinc {
+	  display: none;
+	  }
+  }
+
+@media screen and (max-width: 1000px) {
+  .tilutoresp {
+	  display: block;
+	  }
+  }
+
+@media screen and (max-width: 560px) {
+  .tilutoresp {
+	  display: none;
+	  }
+  }
+
+/*nav*/
+@media screen and (max-width: 560px) {
+  .menu {
+	  display: none;
+	  }
+  }
+  
+/*Logo*/
+@media screen and (max-width: 560px) {
+  .logo {
+	  /*............*/
+	  }
+  }
